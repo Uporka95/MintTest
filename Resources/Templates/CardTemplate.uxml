@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/CardStyle.uss?fileID=7433441132597879392&amp;guid=11bd80c2b5b11ca499a0eeb3a395028c&amp;type=3#CardStyle" />
+    <ui:VisualElement name="root" class="root">
+        <ui:Label text="Name Lastname" display-tooltip-when-elided="true" name="nameLabel" class="title" />
+        <ui:GroupBox style="flex-direction: row; justify-content: flex-start;">
+            <ui:VisualElement name="Column1" class="column">
+                <ui:VisualElement class="row">
+                    <ui:Label text="Email:" display-tooltip-when-elided="true" enable-rich-text="false" class="keyLabel" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="emailLabel" class="valueLabel" style="white-space: nowrap; -unity-text-align: middle-right; justify-content: flex-start; align-items: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row">
+                    <ui:Label text="Address:" display-tooltip-when-elided="true" class="keyLabel" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="addressLabel" class="valueLabel" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row">
+                    <ui:Label text="Gender:" display-tooltip-when-elided="true" class="keyLabel" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="genderLabel" class="valueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="Column2" class="column">
+                <ui:VisualElement class="row">
+                    <ui:Label text="ID:" display-tooltip-when-elided="true" class="keyLabel" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="idLabel" class="valueLabel" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row">
+                    <ui:Label text="IP:" display-tooltip-when-elided="true" class="keyLabel" />
+                    <ui:Label text="Label" display-tooltip-when-elided="true" name="ipLabel" class="valueLabel" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

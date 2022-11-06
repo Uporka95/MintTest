@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/ListViewStyle.uss?fileID=7433441132597879392&amp;guid=6ee2ba8f9b75b6f409064a15b80f99a9&amp;type=3#ListViewStyle" />
+    <Assets.CustomElements.CardsListView style="height: 452px; flex-grow: 1; flex-direction: column;" />
+</ui:UXML>

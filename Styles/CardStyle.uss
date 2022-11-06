@@ -1,0 +1,59 @@
+.title {
+    -unity-background-image-tint-color: rgb(255, 0, 54);
+    font-size: 48px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    -unity-font-style: bold;
+    color: rgba(255, 255, 255, 255);
+}
+
+.root {
+    border-left-color: rgb(212, 212, 212);
+    border-right-color: rgb(212, 212, 212);
+    border-top-color: rgb(212, 212, 212);
+    border-bottom-color: rgb(212, 212, 212);
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    -unity-background-image-tint-color: rgb(255, 137, 1);
+    margin-top: 5px;
+    padding-bottom: 15px;
+    -unity-font-style: bold;
+    background-color: rgba(32, 111, 144, 255);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+}
+
+.row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.valueLabel {
+    font-size: 24px;
+    color: rgba(207, 207, 207, 255);
+}
+
+.keyLabel {
+    font-size: 36px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.column {
+    width: 50%;
+    padding-right: 20px;
+    padding-left: 20px;
+}
