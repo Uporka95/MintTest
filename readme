@@ -1,1 +1,4 @@
-
+Исходники:
+  - CustomElement: кастомизированный ListView
+  - Resources/Templates: шаблон карточки контакта (используется в runtim'e)
+  - Styles: стили для uxml
